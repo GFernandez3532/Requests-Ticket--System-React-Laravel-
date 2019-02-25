@@ -21,8 +21,9 @@ class PedidosController extends Controller
         return view('Pedidos.PedidoFormulario');
     }
 
-    public function indexPedidoParticular(){
+    public function pedidoParticular($id){
 
+        dd($id);
         return view('Pedidos.PedidoParticular');
     }
 
