@@ -2,20 +2,20 @@ import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Header from './Header'
-import NewProject from './NewProject'
-import ProjectsList from './ProjectsList'
+import NewPedido from './NewPedido'
 import SingleProject from './SingleProject'
 
+import PedidosList from './PedidosList'
 
-class App extends Component {
+class AppPedidos extends Component {
     render () {
         return (
             <BrowserRouter>
                 <div>
                     <Header />
                     <Switch>
-                        <Route exact path='/' component={ProjectsList}/>
-                        <Route path='/create' component={NewProject} />
+                        <Route exact path='/' component={PedidosList}/>
+                        <Route path='/createPedido' component={NewPedido} />
                         <Route path='/:id' component={SingleProject} />
                     </Switch>
                 </div>
@@ -24,4 +24,4 @@ class App extends Component {
     }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<AppPedidos/>, document.getElementById('appPedidos'))

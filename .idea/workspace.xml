@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c2e7509-6e36-4be8-a160-73b0e903c834" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/NewProject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ProjectsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/SingleProject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/AppPedidos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/NewPedido.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/PedidosList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PedidosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PedidosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Pedidos/Home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pedidos/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Pedidos/PedidoFormulario.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pedidos/pedidoFormulario.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Pedidos/PedidoParticular.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Pedidos/pedidoParticular.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ProjectsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ProjectsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,36 +28,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Pedidos/home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="343">
+              <caret line="141" column="67" selection-start-line="139" selection-start-column="20" selection-end-line="141" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-              <folding>
-                <element signature="e#7#389#0#PHP" expanded="true" />
-                <element signature="e#391#408#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/NewProject.js">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/PedidosList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -77,12 +59,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/SingleProject.js">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/ProjectsList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2236">
-              <caret line="160" selection-start-line="160" selection-end-line="160" />
+            <state relative-caret-position="184">
+              <caret line="40" selection-start-line="40" selection-end-line="42" selection-end-column="51" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Pedido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/AppPedidos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/NewProject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-700">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/NewPedido.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +129,11 @@
       <find>php arti</find>
       <find>php</find>
       <find>input</find>
+      <find>history</find>
+      <find>props</find>
+      <find>projects</find>
+      <find>Todos</find>
+      <find>pedidos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,26 +161,29 @@
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/Pedidos/Home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Pedidos/pedidoParticular.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PedidosController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/Pedidos/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/App.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/Example.js" />
         <option value="$PROJECT_DIR$/resources/js/components/Example.js" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Header.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/ProjectsList.js" />
         <option value="$PROJECT_DIR$/resources/js/components/NewProject.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/App.js" />
         <option value="$PROJECT_DIR$/app/Task.php" />
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_02_22_200212_create_tasks_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_02_22_200401_create_projects_table.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" />
         <option value="$PROJECT_DIR$/resources/js/components/SingleProject.js" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PedidosController.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/ProjectsList.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/PedidosList.js" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/App.js" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/AppPedidos.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/NewPedido.js" />
       </list>
     </option>
   </component>
@@ -247,7 +288,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1945" />
+    <option name="x" value="1802" />
     <option name="y" value="-8" />
     <option name="width" value="1598" />
     <option name="height" value="898" />
@@ -290,6 +331,12 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="laravel-prueba-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-prueba-master" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="laravel-prueba-master" type="b2602c69:ProjectViewProjectNode" />
@@ -345,12 +392,12 @@
       <workItem from="1550695882125" duration="356000" />
       <workItem from="1550696250880" duration="15411000" />
       <workItem from="1550774490554" duration="12633000" />
-      <workItem from="1550842149883" duration="11192000" />
+      <workItem from="1550842149883" duration="25665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53975000" />
+    <option name="totallyTimeSpent" value="68448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +412,7 @@
     <frame x="1912" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.26542416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.16902314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5018248" side_tool="true" weight="0.2153518" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -377,7 +424,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908162" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.8033419" visible="true" weight="0.40688777" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.8033419" visible="true" weight="0.24872449" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1966581" side_tool="true" weight="0.47959185" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -385,21 +432,32 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49817517" visible="true" weight="0.16902314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5018248" side_tool="true" weight="0.2153518" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3877551" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32908162" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.8033419" visible="true" weight="0.24872449" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.1966581" side_tool="true" weight="0.47959185" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/nexmo/client/src/Application/Webhook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/web.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap/cache/config.php" />
     <entry file="file://$PROJECT_DIR$/../dashboard/start_config/run.sh" />
     <entry file="file://$PROJECT_DIR$/../dashboard/Dockerfile" />
@@ -474,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Pedido.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -533,23 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="13407" column="10" selection-start-line="13407" selection-start-column="10" selection-end-line="13407" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PedidosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -577,41 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="65588" column="43" selection-start-line="65588" selection-start-column="43" selection-end-line="65588" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Pedidos/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="141" column="10" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/es/BrowserRouter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -622,47 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#45#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/ProjectsList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -680,17 +646,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="213">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_ide_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="13407" column="10" selection-start-line="13407" selection-start-column="10" selection-end-line="13407" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#7#389#0#PHP" expanded="true" />
             <element signature="e#391#408#0#PHP" expanded="true" />
@@ -698,42 +674,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/NewProject.js">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#45#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TaskController.php">
+    <entry file="file://$PROJECT_DIR$/app/Project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="62421" column="2" selection-start-line="62421" selection-start-column="2" selection-end-line="62421" selection-end-column="2" />
           <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/SingleProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2236">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
+        <state relative-caret-position="255">
+          <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ProjectsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="40" selection-start-line="40" selection-end-line="42" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/PedidosList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Pedidos/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="141" column="67" selection-start-line="139" selection-start-column="20" selection-end-line="141" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-end-line="19" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PedidosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Pedido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/AppPedidos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/NewProject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/NewPedido.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

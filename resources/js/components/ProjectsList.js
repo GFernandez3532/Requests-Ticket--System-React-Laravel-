@@ -39,8 +39,8 @@ class ProjectsList extends Component {
                                         >
                                             {project.name}
                                             <span className='badge badge-primary badge-pill'>
-                            {project.tasks_count}
-                          </span>
+                                                {project.tasks_count}
+                                            </span>
                                         </Link>
                                     ))}
                                 </ul>

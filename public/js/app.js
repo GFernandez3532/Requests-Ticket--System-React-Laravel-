@@ -65514,9 +65514,10 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+//require('./components/App');
 
 
-__webpack_require__(/*! ./components/App */ "./resources/js/components/App.js");
+__webpack_require__(/*! ./components/AppPedidos */ "./resources/js/components/AppPedidos.js");
 
 /***/ }),
 
@@ -65578,10 +65579,10 @@ if (token) {
 
 /***/ }),
 
-/***/ "./resources/js/components/App.js":
-/*!****************************************!*\
-  !*** ./resources/js/components/App.js ***!
-  \****************************************/
+/***/ "./resources/js/components/AppPedidos.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/AppPedidos.js ***!
+  \***********************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -65593,9 +65594,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
-/* harmony import */ var _NewProject__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NewProject */ "./resources/js/components/NewProject.js");
-/* harmony import */ var _ProjectsList__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ProjectsList */ "./resources/js/components/ProjectsList.js");
-/* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SingleProject */ "./resources/js/components/SingleProject.js");
+/* harmony import */ var _NewPedido__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NewPedido */ "./resources/js/components/NewPedido.js");
+/* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SingleProject */ "./resources/js/components/SingleProject.js");
+/* harmony import */ var _PedidosList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./PedidosList */ "./resources/js/components/PedidosList.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -65622,38 +65623,38 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var App =
+var AppPedidos =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(App, _Component);
+  _inherits(AppPedidos, _Component);
 
-  function App() {
-    _classCallCheck(this, App);
+  function AppPedidos() {
+    _classCallCheck(this, AppPedidos);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(App).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(AppPedidos).apply(this, arguments));
   }
 
-  _createClass(App, [{
+  _createClass(AppPedidos, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         exact: true,
         path: "/",
-        component: _ProjectsList__WEBPACK_IMPORTED_MODULE_5__["default"]
+        component: _PedidosList__WEBPACK_IMPORTED_MODULE_6__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-        path: "/create",
-        component: _NewProject__WEBPACK_IMPORTED_MODULE_4__["default"]
+        path: "/createPedido",
+        component: _NewPedido__WEBPACK_IMPORTED_MODULE_4__["default"]
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         path: "/:id",
-        component: _SingleProject__WEBPACK_IMPORTED_MODULE_6__["default"]
+        component: _SingleProject__WEBPACK_IMPORTED_MODULE_5__["default"]
       }))));
     }
   }]);
 
-  return App;
+  return AppPedidos;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('app'));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AppPedidos, null), document.getElementById('appPedidos'));
 
 /***/ }),
 
@@ -65688,10 +65689,10 @@ var Header = function Header() {
 
 /***/ }),
 
-/***/ "./resources/js/components/NewProject.js":
-/*!***********************************************!*\
-  !*** ./resources/js/components/NewProject.js ***!
-  \***********************************************/
+/***/ "./resources/js/components/NewPedido.js":
+/*!**********************************************!*\
+  !*** ./resources/js/components/NewPedido.js ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -65703,8 +65704,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -65713,135 +65712,49 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 
 
-
-var NewProject =
+var NewPedido =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(NewProject, _Component);
+  _inherits(NewPedido, _Component);
 
-  function NewProject(props) {
-    var _this;
+  function NewPedido() {
+    _classCallCheck(this, NewPedido);
 
-    _classCallCheck(this, NewProject);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(NewProject).call(this, props));
-    _this.state = {
-      name: '',
-      description: '',
-      errors: []
-    };
-    _this.handleFieldChange = _this.handleFieldChange.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.handleCreateNewProject = _this.handleCreateNewProject.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.hasErrorFor = _this.hasErrorFor.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.renderErrorFor = _this.renderErrorFor.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(NewPedido).apply(this, arguments));
   }
 
-  _createClass(NewProject, [{
-    key: "handleFieldChange",
-    value: function handleFieldChange(event) {
-      this.setState(_defineProperty({}, event.target.name, event.target.value));
-    }
-  }, {
-    key: "handleCreateNewProject",
-    value: function handleCreateNewProject(event) {
-      var _this2 = this;
-
-      event.preventDefault();
-      var history = this.props.history;
-      var project = {
-        name: this.state.name,
-        description: this.state.description
-      };
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/api/projects', project).then(function (response) {
-        // redirect to the homepage
-        history.push('/');
-      }).catch(function (error) {
-        _this2.setState({
-          errors: error.response.data.errors
-        });
-      });
-    }
-  }, {
-    key: "hasErrorFor",
-    value: function hasErrorFor(field) {
-      return !!this.state.errors[field];
-    }
-  }, {
-    key: "renderErrorFor",
-    value: function renderErrorFor(field) {
-      if (this.hasErrorFor(field)) {
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-          className: "invalid-feedback"
-        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, this.state.errors[field][0]));
-      }
-    }
-  }, {
+  _createClass(NewPedido, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "container py-4"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "row justify-content-center"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "col-md-6"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "card"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "card-header"
-      }, "Create new project"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "card-body"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
-        onSubmit: this.handleCreateNewProject
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "form-group"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-        htmlFor: "name"
-      }, "Project name"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-        id: "name",
-        type: "text",
-        className: "form-control ".concat(this.hasErrorFor('name') ? 'is-invalid' : ''),
-        name: "name",
-        value: this.state.name,
-        onChange: this.handleFieldChange
-      }), this.renderErrorFor('name')), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: "form-group"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-        htmlFor: "description"
-      }, "Project description"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
-        id: "description",
-        className: "form-control ".concat(this.hasErrorFor('description') ? 'is-invalid' : ''),
-        name: "description",
-        rows: "10",
-        value: this.state.description,
-        onChange: this.handleFieldChange
-      }), this.renderErrorFor('description')), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-        className: "btn btn-primary"
-      }, "Create")))))));
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, "Titulo", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+        type: "Text",
+        name: "name"
+      })));
     }
   }]);
 
-  return NewProject;
+  return NewPedido;
 }(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (NewProject);
+/* harmony default export */ __webpack_exports__["default"] = (NewPedido);
 
 /***/ }),
 
-/***/ "./resources/js/components/ProjectsList.js":
-/*!*************************************************!*\
-  !*** ./resources/js/components/ProjectsList.js ***!
-  \*************************************************/
+/***/ "./resources/js/components/PedidosList.js":
+/*!************************************************!*\
+  !*** ./resources/js/components/PedidosList.js ***!
+  \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -65874,38 +65787,38 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var ProjectsList =
+var PedidosList =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(ProjectsList, _Component);
+  _inherits(PedidosList, _Component);
 
-  function ProjectsList() {
+  function PedidosList() {
     var _this;
 
-    _classCallCheck(this, ProjectsList);
+    _classCallCheck(this, PedidosList);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(ProjectsList).call(this));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(PedidosList).call(this));
     _this.state = {
-      projects: []
+      pedidos: []
     };
     return _this;
   }
 
-  _createClass(ProjectsList, [{
+  _createClass(PedidosList, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       var _this2 = this;
 
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/projects').then(function (response) {
+      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/pedidos').then(function (response) {
         _this2.setState({
-          projects: response.data
+          pedidos: response.data
         });
       });
     }
   }, {
     key: "render",
     value: function render() {
-      var projects = this.state.projects;
+      var pedidos = this.state.pedidos;
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "container py-4"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -65916,29 +65829,28 @@ function (_Component) {
         className: "card"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "card-header"
-      }, "All projects"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, "Todos los pedidos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "card-body"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
         className: "btn btn-primary btn-sm mb-3",
         to: "/create"
-      }, "Create new project"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-        className: "list-group list-group-flush"
-      }, projects.map(function (project) {
-        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-          className: "list-group-item list-group-item-action d-flex justify-content-between align-items-center",
-          to: "/".concat(project.id),
-          key: project.id
-        }, project.name, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-          className: "badge badge-primary badge-pill"
-        }, project.tasks_count));
-      })))))));
+      }, "Crear nuevo Pedido"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
+        align: "center",
+        className: "table table-bordered"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Titulo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Datos Requeridos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Descripcion"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Acciones")), pedidos.map(function (pedido) {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
+          key: pedido.id
+        }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.titulo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.DatosRequeridos), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.descripcion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+          className: "btn btn-info"
+        }, "  Ver")));
+      }))))))));
     }
   }]);
 
-  return ProjectsList;
+  return PedidosList;
 }(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (ProjectsList);
+/* harmony default export */ __webpack_exports__["default"] = (PedidosList);
 
 /***/ }),
 

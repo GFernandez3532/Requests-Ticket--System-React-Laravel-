@@ -52,4 +52,19 @@ class PedidosController extends Controller
 
         return redirect()->route('pedidos.index');
     }
+
+
+
+// METODOS PARA MODO REACT
+
+
+    public function indexReact(){
+
+        $pedidos = Pedido::all();
+
+
+        return $pedidos->toJson();
+
+    }
+
 }

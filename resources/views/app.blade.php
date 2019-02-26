@@ -13,7 +13,7 @@
 </head>
 <body>
 <h2></h2>
-<div id="app"> </div>
-<script src="{{asset('/js/app.js')}}?{{now()}}" ></script>
+<div id="appPedidos"> </div>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
