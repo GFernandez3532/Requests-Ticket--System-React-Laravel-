@@ -67,4 +67,27 @@ class PedidosController extends Controller
 
     }
 
+    public function store(Request $request){
+
+        $request->validate([
+            'titulo' => 'required',
+            'descripcion' => 'required',
+            'datosRequeridos' => 'required'
+        ]);
+
+
+        $pedido = new Pedido();
+
+        $pedido->titulo = $request->titulo;
+        $pedido->descripcion = $request->descripcion;
+        $pedido->DatosRequeridos = $request-> datosRequeridos;
+
+
+
+        $pedido->save();
+
+
+        return response()->json('Pedido creado!');
+    }
+
 }
