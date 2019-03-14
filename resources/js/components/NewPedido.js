@@ -99,11 +99,6 @@ class NewPedido extends Component{
                                         <input onChange={this.check} type="checkbox" value="idSalesforce" />Id Salesforce
                                         <br/>
                                     </div>
-                                    <div>
-                                        <label htmlFor="imagen">Archivo (Opcional):</label>
-                                        <br/>
-                                        <input type="file" name="imagen" id="imagen"/>
-                                    </div>
                                     <br/>
                                     <input type="submit" value="Submit" />
                                 </form>

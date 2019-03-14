@@ -66295,7 +66295,7 @@ const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
   className: "navbar-brand",
   to: "/"
-}, "Tasksman")));
+}, "Sistema de Pedidos")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
@@ -66421,13 +66421,7 @@ class NewPedido extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       onChange: this.check,
       type: "checkbox",
       value: "idSalesforce"
-    }), "Id Salesforce", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-      htmlFor: "imagen"
-    }, "Archivo (Opcional):"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-      type: "file",
-      name: "imagen",
-      id: "imagen"
-    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    }), "Id Salesforce", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
       type: "submit",
       value: "Submit"
     })))))));
