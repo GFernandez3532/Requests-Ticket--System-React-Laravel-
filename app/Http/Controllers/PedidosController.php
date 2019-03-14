@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Project;
 use Illuminate\Http\Request;
 use App\Pedido;
 
@@ -75,12 +76,15 @@ class PedidosController extends Controller
             'datosRequeridos' => 'required'
         ]);
 
+        //dd($request->descripcion);
 
         $pedido = new Pedido();
 
+        $datosrequeridos = implode(", ", $request->datosRequeridos);
+
         $pedido->titulo = $request->titulo;
         $pedido->descripcion = $request->descripcion;
-        $pedido->DatosRequeridos = $request-> datosRequeridos;
+        $pedido->DatosRequeridos = $datosrequeridos;
 
 
 
@@ -90,4 +94,19 @@ class PedidosController extends Controller
         return response()->json('Pedido creado!');
     }
 
+    public function show($id)
+    {
+        $pedido = Pedido::find($id);
+
+        return $pedido->toJson();
+    }
+
+    public function marcarCompletado(Pedido $pedido) {
+
+        $pedido -> estado = 'terminado';
+        $pedido ->update();
+
+        return response()->json('Project updated!');
+
+    }
 }

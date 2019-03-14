@@ -25,12 +25,13 @@ class SingleProject extends Component {
         const projectId = this.props.match.params.id
 
         axios.get(`/api/projects/${projectId}`).then(response => {
-            this.setState({
+                this.setState({
                 project: response.data,
                 tasks: response.data.tasks
             })
         })
     }
+
 
     handleFieldChange (event) {
         this.setState({

@@ -27,3 +27,5 @@ Route::put('tasks/{task}', 'TaskController@markAsCompleted');
 
 Route::get('pedidos', 'PedidosController@indexReact');
 Route::post('pedidos', 'PedidosController@store');
+Route::get ('pedidos/{id}', 'PedidosController@show');
+Route::put ('pedidos/{pedido}', 'PedidosController@marcarCompletado');

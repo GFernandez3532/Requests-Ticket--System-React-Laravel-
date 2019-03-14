@@ -31,6 +31,7 @@
         "vue-template-compiler": "^2.6.7"
     },
     "dependencies": {
+        "react-bootstrap-table-next": "^3.0.1",
         "react-router-dom": "^4.3.1"
     }
 }

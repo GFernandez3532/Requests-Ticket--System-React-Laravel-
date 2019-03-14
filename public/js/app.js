@@ -6052,6 +6052,112 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css ***!
+  \*********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".react-bootstrap-table table{table-layout:fixed}.react-bootstrap-table th.sortable{cursor:pointer}.react-bootstrap-table th .order>.dropdown>.caret{margin:10px 0 10px 5px;color:#ccc}.react-bootstrap-table th .order>.dropup>.caret{margin:10px 0;color:#ccc}.react-bootstrap-table th>.react-bootstrap-table-sort-order>.caret{margin:10px 6.5px}.react-bootstrap-table th .order-4:before{margin-left:3.5px;content:\"\\2191\";opacity:.4}.react-bootstrap-table th .order-4:after{content:\"\\2193\";opacity:.4}.react-bootstrap-table th .caret-4-asc:before{margin-left:3.5px;content:\"\\2191\"}.react-bootstrap-table th .caret-4-asc:after{content:\"\\2193\";opacity:.4}.react-bootstrap-table th .caret-4-desc:before{margin-left:3.5px;content:\"\\2191\";opacity:.4}.react-bootstrap-table th .caret-4-desc:after{content:\"\\2193\"}.react-bootstrap-table th[data-row-selection]{width:30px}.react-bootstrap-table td>.selection-input-4,.react-bootstrap-table th>.selection-input-4{margin:-4px}.react-bootstrap-table td.react-bs-table-no-data{text-align:center}.react-bootstrap-table tr.expanding-row{padding:5px}.react-bootstrap-table td.react-bootstrap-table-editing-cell .animated{-webkit-animation-fill-mode:both;animation-fill-mode:both}.react-bootstrap-table td.react-bootstrap-table-editing-cell .animated.bounceIn,.react-bootstrap-table td.react-bootstrap-table-editing-cell .animated.bounceOut{-webkit-animation-duration:.75s;animation-duration:.75s}.react-bootstrap-table td.react-bootstrap-table-editing-cell .animated.shake{-webkit-animation-duration:.3s;animation-duration:.3s}@-webkit-keyframes shake{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,50%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}30%,70%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,50%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}30%,70%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.react-bootstrap-table td.react-bootstrap-table-editing-cell .shake{-webkit-animation-name:shake;animation-name:shake}@-webkit-keyframes bounceIn{20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}@keyframes bounceIn{20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}.react-bootstrap-table td.react-bootstrap-table-editing-cell .bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn}@-webkit-keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}@keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}.react-bootstrap-table td.react-bootstrap-table-editing-cell .bounceOut{-webkit-animation-name:bounceOut;animation-name:bounceOut}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/history/es/DOMUtils.js":
 /*!*********************************************!*\
   !*** ./node_modules/history/es/DOMUtils.js ***!
@@ -38616,6 +38722,36 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
+/***/ "./node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./react-bootstrap-table2.min.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -65308,6 +65444,515 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/lib/addStyles.js":
+/*!****************************************************!*\
+  !*** ./node_modules/style-loader/lib/addStyles.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getTarget = function (target, parent) {
+  if (parent){
+    return parent.querySelector(target);
+  }
+  return document.querySelector(target);
+};
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(target, parent) {
+                // If passing function in options, then use it for resolve "head" element.
+                // Useful for Shadow Root style i.e
+                // {
+                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
+                // }
+                if (typeof target === 'function') {
+                        return target();
+                }
+                if (typeof memo[target] === "undefined") {
+			var styleTarget = getTarget.call(this, target, parent);
+			// Special case to return head of iframe instead of iframe itself
+			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[target] = styleTarget;
+		}
+		return memo[target]
+	};
+})();
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+        if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertAt.before, target);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+
+	if(options.attrs.nonce === undefined) {
+		var nonce = getNonce();
+		if (nonce) {
+			options.attrs.nonce = nonce;
+		}
+	}
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function getNonce() {
+	if (false) {}
+
+	return __webpack_require__.nc;
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = typeof options.transform === 'function'
+		 ? options.transform(obj.css) 
+		 : options.transform.default(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/urls.js":
+/*!***********************************************!*\
+  !*** ./node_modules/style-loader/lib/urls.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/value-equal/index.js":
 /*!*******************************************!*\
   !*** ./node_modules/value-equal/index.js ***!
@@ -65594,12 +66239,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
-/* harmony import */ var _NewPedido__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NewPedido */ "./resources/js/components/NewPedido.js");
-/* harmony import */ var _SingleProject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SingleProject */ "./resources/js/components/SingleProject.js");
-/* harmony import */ var _PedidosList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./PedidosList */ "./resources/js/components/PedidosList.js");
+/* harmony import */ var _PedidosList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PedidosList */ "./resources/js/components/PedidosList.js");
+/* harmony import */ var _VerPedido__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./VerPedido */ "./resources/js/components/VerPedido.js");
+/* harmony import */ var _NewPedido__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NewPedido */ "./resources/js/components/NewPedido.js");
 
 
 
+ //import SingleProject from './SingleProject'
 
 
 
@@ -65610,13 +66256,13 @@ class AppPedidos extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       exact: true,
       path: "/",
-      component: _PedidosList__WEBPACK_IMPORTED_MODULE_6__["default"]
+      component: _PedidosList__WEBPACK_IMPORTED_MODULE_4__["default"]
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/createPedido",
-      component: _NewPedido__WEBPACK_IMPORTED_MODULE_4__["default"]
+      component: _NewPedido__WEBPACK_IMPORTED_MODULE_6__["default"]
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/:id",
-      component: _SingleProject__WEBPACK_IMPORTED_MODULE_5__["default"]
+      component: _VerPedido__WEBPACK_IMPORTED_MODULE_5__["default"]
     }))));
   }
 
@@ -65775,7 +66421,13 @@ class NewPedido extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       onChange: this.check,
       type: "checkbox",
       value: "idSalesforce"
-    }), "Id Salesforce", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    }), "Id Salesforce", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+      htmlFor: "imagen"
+    }, "Archivo (Opcional):"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "file",
+      name: "imagen",
+      id: "imagen"
+    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
       type: "submit",
       value: "Submit"
     })))))));
@@ -65801,6 +66453,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+/* harmony import */ var react_bootstrap_table_next_dist_react_bootstrap_table2_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap-table-next/dist/react-bootstrap-table2.min.css */ "./node_modules/react-bootstrap-table-next/dist/react-bootstrap-table2.min.css");
+/* harmony import */ var react_bootstrap_table_next_dist_react_bootstrap_table2_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_table_next_dist_react_bootstrap_table2_min_css__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -65830,7 +66485,7 @@ class PedidosList extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "row justify-content-center"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "col-md-8"
+      className: "col-md-12"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -65839,15 +66494,19 @@ class PedidosList extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "card-body"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "btn btn-primary btn-sm mb-3",
-      to: "/create"
+      to: "/createPedido"
     }, "Crear nuevo Pedido"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
       align: "center",
-      className: "table table-bordered"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Titulo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Datos Requeridos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Descripcion"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Acciones")), pedidos.map(pedido => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
+      className: "table data-table "
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Titulo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Datos Requeridos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Descripcion"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Estado"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Ver"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Editar")), pedidos.map(pedido => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
       key: pedido.id
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.titulo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.DatosRequeridos), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.descripcion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-      className: "btn btn-info"
-    }, "  Ver")))))))))));
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.titulo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.DatosRequeridos), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.descripcion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.estado), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      className: "btn btn-info",
+      to: `/${pedido.id}`
+    }, "  Ver")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      className: "btn btn-success",
+      to: `/${pedido.id}`
+    }, "  Editar")))))))))));
   }
 
 }
@@ -65856,10 +66515,10 @@ class PedidosList extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ "./resources/js/components/SingleProject.js":
-/*!**************************************************!*\
-  !*** ./resources/js/components/SingleProject.js ***!
-  \**************************************************/
+/***/ "./resources/js/components/VerPedido.js":
+/*!**********************************************!*\
+  !*** ./resources/js/components/VerPedido.js ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -65872,93 +66531,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-class SingleProject extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+class VerPedido extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   constructor(props) {
     super(props);
     this.state = {
-      project: {},
-      tasks: [],
-      title: '',
-      errors: []
+      pedido: {}
     };
-    this.handleFieldChange = this.handleFieldChange.bind(this);
-    this.handleAddNewTask = this.handleAddNewTask.bind(this);
-    this.hasErrorFor = this.hasErrorFor.bind(this);
-    this.renderErrorFor = this.renderErrorFor.bind(this);
-    this.handleMarkProjectAsCompleted = this.handleMarkProjectAsCompleted.bind(this);
+    this.handleMarcarPedidoCompletado = this.handleMarcarPedidoCompletado.bind(this);
   }
 
   componentDidMount() {
-    const projectId = this.props.match.params.id;
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`/api/projects/${projectId}`).then(response => {
+    const pedidoId = this.props.match.params.id;
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(`/api/pedidos/${pedidoId}`).then(response => {
       this.setState({
-        project: response.data,
-        tasks: response.data.tasks
+        pedido: response.data
       });
     });
   }
 
-  handleFieldChange(event) {
-    this.setState({
-      title: event.target.value
-    });
-  }
-
-  handleAddNewTask(event) {
-    event.preventDefault();
-    const task = {
-      title: this.state.title,
-      project_id: this.state.project.id
-    };
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/api/tasks', task).then(response => {
-      // clear form input
-      this.setState({
-        title: ''
-      }); // add new task to list of tasks
-
-      this.setState(prevState => ({
-        tasks: prevState.tasks.concat(response.data)
-      }));
-    }).catch(error => {
-      this.setState({
-        errors: error.response.data.errors
-      });
-    });
-  }
-
-  hasErrorFor(field) {
-    return !!this.state.errors[field];
-  }
-
-  renderErrorFor(field) {
-    if (this.hasErrorFor(field)) {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-        className: "invalid-feedback"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", null, this.state.errors[field][0]));
-    }
-  }
-
-  handleMarkProjectAsCompleted() {
+  handleMarcarPedidoCompletado() {
     const {
       history
     } = this.props;
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.put(`/api/projects/${this.state.project.id}`).then(response => history.push('/'));
-  }
-
-  handleMarkTaskAsCompleted(taskId) {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.put(`/api/tasks/${taskId}`).then(response => {
-      this.setState(prevState => ({
-        tasks: prevState.tasks.filter(task => {
-          return task.id !== taskId;
-        })
-      }));
-    });
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.put(`/api/pedidos/${this.state.pedido.id}`).then(response => history.push('/'));
   }
 
   render() {
     const {
-      project,
-      tasks
+      pedido
     } = this.state;
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "container py-4"
@@ -65970,40 +66570,17 @@ class SingleProject extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "card"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-header"
-    }, project.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    }, " ", pedido.titulo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-body"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, project.description), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, "Descripcion: "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, pedido.descripcion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, "Datos Requeridos: "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, pedido.DatosRequeridos), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
       className: "btn btn-primary btn-sm",
-      onClick: this.handleMarkProjectAsCompleted
-    }, "Mark as completed"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
-      onSubmit: this.handleAddNewTask
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "input-group"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
-      type: "text",
-      name: "title",
-      className: `form-control ${this.hasErrorFor('title') ? 'is-invalid' : ''}`,
-      placeholder: "Task title",
-      value: this.state.title,
-      onChange: this.handleFieldChange
-    }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "input-group-append"
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-      className: "btn btn-primary"
-    }, "Add")), this.renderErrorFor('title'))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-      className: "list-group mt-3"
-    }, tasks.map(task => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-      className: "list-group-item d-flex justify-content-between align-items-center",
-      key: task.id
-    }, task.title, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-      className: "btn btn-primary btn-sm",
-      onClick: this.handleMarkTaskAsCompleted.bind(this, task.id)
-    }, "Mark as completed")))))))));
+      onClick: this.handleMarcarPedidoCompletado
+    }, "Marcar como Terminado"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", null))))));
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (SingleProject);
+/* harmony default export */ __webpack_exports__["default"] = (VerPedido);
 
 /***/ }),
 

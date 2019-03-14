@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 
 class PedidosList extends Component {
     constructor () {
@@ -23,20 +24,22 @@ class PedidosList extends Component {
         return (
             <div className='container py-4'>
                 <div className='row justify-content-center'>
-                    <div className='col-md-8'>
+                    <div className='col-md-12'>
                         <div className='card'>
                             <div className='card-header'>Todos los pedidos</div>
                             <div className='card-body'>
-                                <Link className='btn btn-primary btn-sm mb-3' to='/create'>
+                                <Link className='btn btn-primary btn-sm mb-3' to='/createPedido'>
                                     Crear nuevo Pedido
                                 </Link>
-                                <table align="center" className="table table-bordered">
+                                <table align="center" className="table data-table ">
                                     <tbody>
                                     <tr>
                                         <th>Titulo</th>
                                         <th>Datos Requeridos</th>
                                         <th>Descripcion</th>
-                                        <th>Acciones</th>
+                                        <th>Estado</th>
+                                        <th>Ver</th>
+                                        <th>Editar</th>
                                     </tr>
                                     {pedidos.map(pedido => (
                                         <tr key={pedido.id}>
@@ -44,13 +47,18 @@ class PedidosList extends Component {
                                             <td>{pedido.titulo}</td>
                                             <td>{pedido.DatosRequeridos}</td>
                                             <td>{pedido.descripcion}</td>
+                                            <td>{pedido.estado}</td>
                                             <td>
-                                                <button className="btn btn-info">  Ver</button>
+                                                <Link  className="btn btn-info" to={`/${pedido.id}`}>  Ver</Link>
+                                            </td>
+                                            <td>
+                                                <Link  className="btn btn-success" to={`/${pedido.id}`}>  Editar</Link>
                                             </td>
                                         </tr>
                                     ))}
                                     </tbody>
                                 </table>
+
 
                             </div>
                         </div>
