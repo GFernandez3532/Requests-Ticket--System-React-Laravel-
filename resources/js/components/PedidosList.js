@@ -26,10 +26,10 @@ class PedidosList extends Component {
                 <div className='row justify-content-center'>
                     <div className='col-md-12'>
                         <div className='card'>
-                            <div className='card-header'></div>
+                            <div className='card-header'> Pedidos Realizados</div>
                             <div className='card-body'>
                                 <Link className='btn btn-primary btn-sm mb-3' to='/createPedido'>
-                                    Crear nuevo Pedido
+                                    Crear nuevo Pedido Directa
                                 </Link>
                                 <br/>
                                 <Link className='btn btn-primary btn-sm mb-3' to='/createPedidoDigital'>

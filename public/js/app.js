@@ -66536,7 +66536,7 @@ class NewPedidoDigital extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "card"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-header"
-    }, "Cedido Digital"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    }, "Pedido Digital"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-body"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
       onSubmit: this.handleSubmit
@@ -66585,12 +66585,16 @@ class NewPedidoDigital extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       id: "descripcion",
       type: "text",
       name: "descripcion",
+      className: "form-control",
       value: this.state.name,
       onChange: this.handleChange
-    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "text-center"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      className: "btn btn-primary",
       type: "submit",
       value: "Submit"
-    })))))));
+    }))))))));
   }
 
 }
@@ -66650,12 +66654,12 @@ class PedidosList extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "card"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-header"
-    }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    }, " Pedidos Realizados"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-body"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "btn btn-primary btn-sm mb-3",
       to: "/createPedido"
-    }, "Crear nuevo Pedido"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    }, "Crear nuevo Pedido Directa"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "btn btn-primary btn-sm mb-3",
       to: "/createPedidoDigital"
     }, "Crear nuevo Pedido Digital"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {

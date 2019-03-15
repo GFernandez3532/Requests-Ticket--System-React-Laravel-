@@ -90,9 +90,9 @@ class NewPedidoDigital extends Component{
                 <div className='row justify-content-center'>
                     <div className='col-md-6'>
                         <div className='card'>
-                            <div className='card-header'>Cedido Digital</div>
+                            <div className='card-header'>Pedido Digital</div>
                             <div className='card-body'>
-                                <form onSubmit={this.handleSubmit}>
+                                <form  onSubmit={this.handleSubmit}>
                                     <div className='form-group'>
                                         <label htmlFor='titulo'>Titulo:</label>
                                         <br/>
@@ -135,10 +135,13 @@ class NewPedidoDigital extends Component{
                                         <textarea id='descripcion'
                                                   type='text'
                                                   name='descripcion'
+                                                  className="form-control"
                                                   value={this.state.name}
                                                   onChange={this.handleChange} />
                                     </div>
-                                    <input type="submit" value="Submit" />
+                                     <div className="text-center">
+                                        <input className='btn btn-primary' type="submit" value="Submit"/>
+                                    </div>
                                 </form>
                             </div>
                         </div>
