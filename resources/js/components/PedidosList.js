@@ -26,15 +26,20 @@ class PedidosList extends Component {
                 <div className='row justify-content-center'>
                     <div className='col-md-12'>
                         <div className='card'>
-                            <div className='card-header'>Todos los pedidos</div>
+                            <div className='card-header'></div>
                             <div className='card-body'>
                                 <Link className='btn btn-primary btn-sm mb-3' to='/createPedido'>
                                     Crear nuevo Pedido
+                                </Link>
+                                <br/>
+                                <Link className='btn btn-primary btn-sm mb-3' to='/createPedidoDigital'>
+                                    Crear nuevo Pedido Digital
                                 </Link>
                                 <table align="center" className="table data-table ">
                                     <tbody>
                                     <tr>
                                         <th>Titulo</th>
+                                        <th>tipo</th>
                                         <th>Datos Requeridos</th>
                                         <th>Descripcion</th>
                                         <th>Estado</th>
@@ -45,6 +50,7 @@ class PedidosList extends Component {
                                         <tr key={pedido.id}>
 
                                             <td>{pedido.titulo}</td>
+                                            <td>{pedido.tipo}</td>
                                             <td>{pedido.DatosRequeridos}</td>
                                             <td>{pedido.descripcion}</td>
                                             <td>{pedido.estado}</td>

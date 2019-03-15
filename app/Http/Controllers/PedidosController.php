@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Project;
+use App\TipoPedido;
 use Illuminate\Http\Request;
 use App\Pedido;
 
@@ -85,7 +86,7 @@ class PedidosController extends Controller
         $pedido->titulo = $request->titulo;
         $pedido->descripcion = $request->descripcion;
         $pedido->DatosRequeridos = $datosrequeridos;
-        $pedido ->tipo = '';
+        $pedido ->tipo = $request->tipo;
 
 
 
@@ -108,6 +109,15 @@ class PedidosController extends Controller
         $pedido ->update();
 
         return response()->json('Project updated!');
+
+    }
+
+    public function tipoPedidoDigital (){
+
+        $tiposPedido = TipoPedido::where('area_id', 1)
+            ->get();
+
+        return $tiposPedido->toJson();
 
     }
 }

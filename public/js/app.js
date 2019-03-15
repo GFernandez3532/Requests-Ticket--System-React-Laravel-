@@ -66242,10 +66242,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PedidosList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PedidosList */ "./resources/js/components/PedidosList.js");
 /* harmony import */ var _VerPedido__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./VerPedido */ "./resources/js/components/VerPedido.js");
 /* harmony import */ var _NewPedido__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./NewPedido */ "./resources/js/components/NewPedido.js");
+/* harmony import */ var _NewPedidoDigital__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./NewPedidoDigital */ "./resources/js/components/NewPedidoDigital.js");
 
 
 
- //import SingleProject from './SingleProject'
+
 
 
 
@@ -66260,6 +66261,9 @@ class AppPedidos extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/createPedido",
       component: _NewPedido__WEBPACK_IMPORTED_MODULE_6__["default"]
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      path: "/createPedidoDigital",
+      component: _NewPedidoDigital__WEBPACK_IMPORTED_MODULE_7__["default"]
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: "/:id",
       component: _VerPedido__WEBPACK_IMPORTED_MODULE_5__["default"]
@@ -66433,6 +66437,168 @@ class NewPedido extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
+/***/ "./resources/js/components/NewPedidoDigital.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/NewPedidoDigital.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+class NewPedidoDigital extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "check", item => {
+      const {
+        datosRequeridos
+      } = this.state;
+      let nuevoDato = [];
+
+      if (!datosRequeridos.includes(item.target.value)) {
+        nuevoDato = [...datosRequeridos, item.target.value];
+      } else {
+        nuevoDato = datosRequeridos.filter(a => a !== item.target.value);
+      }
+
+      this.setState({
+        datosRequeridos: nuevoDato
+      }, () => console.log("updated state", nuevoDato));
+    });
+
+    this.state = {
+      tiposPedidos: [],
+      titulo: '',
+      descripcion: '',
+      datosRequeridos: [],
+      tipoPedidoSeleccionado: ''
+    };
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.check = this.check.bind(this);
+  }
+
+  componentDidMount() {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/tipoPedidosDigital').then(response => {
+      this.setState({
+        tiposPedidos: response.data
+      });
+    });
+  }
+
+  handleChange(event) {
+    this.setState({
+      [event.target.name]: event.target.value
+    });
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+    const {
+      history
+    } = this.props;
+    const pedido = {
+      titulo: this.state.titulo,
+      descripcion: this.state.descripcion,
+      datosRequeridos: this.state.datosRequeridos,
+      tipo: this.state.tipoPedidoSeleccionado
+    };
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/api/pedidos', pedido).then(response => {
+      // redirect to the homepage
+      history.push('/');
+    });
+  }
+
+  render() {
+    let tipoPedidos = this.state.tiposPedidos;
+    let optionItems = tipoPedidos.map(tipoPedido => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
+      value: tipoPedido.nombre,
+      name: "tipoPedidoSeleccionado",
+      key: tipoPedido.id
+    }, tipoPedido.nombre));
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "container py-4"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "row justify-content-center"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "col-md-6"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "card"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "card-header"
+    }, "Cedido Digital"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "card-body"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
+      onSubmit: this.handleSubmit
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "form-group"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+      htmlFor: "titulo"
+    }, "Titulo:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      id: "titulo",
+      type: "text",
+      name: "titulo",
+      className: "form-control",
+      placeholder: "Ingrese su titulo",
+      value: this.state.name,
+      onChange: this.handleChange
+    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, "Tipo de Pedido:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
+      onChange: e => this.setState({
+        tipoPedidoSeleccionado: e.target.value
+      }),
+      className: "form-control"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
+      value: ""
+    }, "Seleccionar"), optionItems), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "form-group"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, "Datos requeridos:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      onChange: this.check,
+      type: "checkbox",
+      value: "Facebook"
+    }), "Facebook", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      onChange: this.check,
+      type: "checkbox",
+      value: "Google"
+    }), "Google", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      onChange: this.check,
+      type: "checkbox",
+      value: "Programmatic"
+    }), "Programmatic", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      onChange: this.check,
+      type: "checkbox",
+      value: "MobileIds"
+    }), "Mobile Ids", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "form-group"
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+      htmlFor: "descripcion"
+    }, "Notas:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
+      id: "descripcion",
+      type: "text",
+      name: "descripcion",
+      value: this.state.name,
+      onChange: this.handleChange
+    })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+      type: "submit",
+      value: "Submit"
+    })))))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (NewPedidoDigital);
+
+/***/ }),
+
 /***/ "./resources/js/components/PedidosList.js":
 /*!************************************************!*\
   !*** ./resources/js/components/PedidosList.js ***!
@@ -66484,17 +66650,20 @@ class PedidosList extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
       className: "card"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-header"
-    }, "Todos los pedidos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
       className: "card-body"
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "btn btn-primary btn-sm mb-3",
       to: "/createPedido"
-    }, "Crear nuevo Pedido"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
+    }, "Crear nuevo Pedido"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      className: "btn btn-primary btn-sm mb-3",
+      to: "/createPedidoDigital"
+    }, "Crear nuevo Pedido Digital"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("table", {
       align: "center",
       className: "table data-table "
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Titulo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Datos Requeridos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Descripcion"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Estado"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Ver"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Editar")), pedidos.map(pedido => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tbody", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Titulo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "tipo"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Datos Requeridos"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Descripcion"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Estado"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Ver"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("th", null, "Editar")), pedidos.map(pedido => react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("tr", {
       key: pedido.id
-    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.titulo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.DatosRequeridos), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.descripcion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.estado), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.titulo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.tipo), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.DatosRequeridos), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.descripcion), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, pedido.estado), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       className: "btn btn-info",
       to: `/${pedido.id}`
     }, "  Ver")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {

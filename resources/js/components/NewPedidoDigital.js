@@ -22,7 +22,7 @@ class NewPedidoDigital extends Component{
 
     componentDidMount() {
 
-        axios.get('/api/tiposPedidos').then(response=>{
+        axios.get('/api/tipoPedidosDigital').then(response=>{
             this.setState({
 
                 tiposPedidos:response.data
@@ -99,6 +99,8 @@ class NewPedidoDigital extends Component{
                                         <input id='titulo'
                                                type='text'
                                                name='titulo'
+                                               className="form-control"
+                                               placeholder="Ingrese su titulo"
                                                value={this.state.name}
                                                onChange={this.handleChange} />
                                     </div>
@@ -106,7 +108,8 @@ class NewPedidoDigital extends Component{
                                     <label>Tipo de Pedido:</label>
                                     <br/>
 
-                                    <select  onChange={(e) => this.setState({tipoPedidoSeleccionado: e.target.value})}>
+                                    <select  onChange={(e) => this.setState({tipoPedidoSeleccionado: e.target.value})}
+                                    className='form-control'>
                                         <option value="">Seleccionar</option>
                                         {optionItems}
                                     </select>
@@ -124,6 +127,8 @@ class NewPedidoDigital extends Component{
                                         <input onChange={this.check} type="checkbox" value="MobileIds" />Mobile Ids
                                         <br/>
                                     </div>
+
+
                                     <div className='form-group'>
                                         <label htmlFor='descripcion'>Notas:</label>
                                         <br/>
