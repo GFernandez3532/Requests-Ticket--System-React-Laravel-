@@ -86,7 +86,7 @@ class PedidosController extends Controller
         $pedido->titulo = $request->titulo;
         $pedido->descripcion = $request->descripcion;
         $pedido->DatosRequeridos = $datosrequeridos;
-        $pedido ->tipo = $request->tipo;
+        $pedido ->tipo = 'Directa';
 
 
 
